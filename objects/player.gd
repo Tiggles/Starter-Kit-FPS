@@ -156,7 +156,7 @@ func handle_controls(_delta):
 			gravity = -jump_strength
 			jump_double = false
 			
-		if(jump_single): action_jump()
+		if jump_single: action_jump()
 		
 	# Weapon switching
 	
